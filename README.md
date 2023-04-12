@@ -51,3 +51,13 @@ public class AstroConfiguration {
   }
 }
 ```
+
+## JsonPlaceHolder Users
+- UserResponse.java (record)
+- UserInterface.java
+- UserConfiguration.java
+- UserController.java
+
+```
+http://localhost:8080/users
+```
