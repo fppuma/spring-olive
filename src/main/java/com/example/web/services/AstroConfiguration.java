@@ -8,8 +8,8 @@ import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 
 @Configuration
 public class AstroConfiguration {
-    @Bean
-    AstroInterface astroInterface() {
+  @Bean
+  AstroInterface astroInterface() {
     WebClient client = WebClient.create("http://api.open-notify.org");
     HttpServiceProxyFactory factory =
       HttpServiceProxyFactory.builder(
